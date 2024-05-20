@@ -1,6 +1,4 @@
-﻿using Uzduotis02;
-
-namespace Paskaita04
+﻿namespace Paskaita04
 {
     public class Program
     {

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis01", "Paskaita04\Uz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis02", "Uzduotis02\Uzduotis02.csproj", "{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis03", "Uzduotis03\Uzduotis03.csproj", "{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis04", "Uzduotis04\Uzduotis04.csproj", "{F5D70B7F-49D4-4CB7-A158-755B43F50231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D70B7F-49D4-4CB7-A158-755B43F50231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D70B7F-49D4-4CB7-A158-755B43F50231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D70B7F-49D4-4CB7-A158-755B43F50231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D70B7F-49D4-4CB7-A158-755B43F50231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
