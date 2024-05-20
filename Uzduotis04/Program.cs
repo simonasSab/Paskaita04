@@ -99,8 +99,6 @@
             if (studentai.Contains(studentas))
             {
                 Console.WriteLine($"Studentas su tokiais vardu, pavarde ir amžiumi jau egzistuoja!\nJei norite redaguoti, ištrinkite esamą įrašą.");
-                studentai.Remove(studentas);
-
                 return;
             }
 
