@@ -1,6 +1,6 @@
 ﻿namespace Paskaita04
 {
-    public class Program
+    internal class Program
     {
         // Užduotis 2: Klasės ir Objektai
         // Sukurkite programą, kuri atliks šias užduotis:

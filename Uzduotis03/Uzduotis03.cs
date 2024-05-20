@@ -1,6 +1,6 @@
 ﻿namespace Paskaita04
 {
-    public class Uzduotis03
+    internal class Uzduotis03
     {
         // Užduotis 3: Ciklai ir Sąlygos Sakiai
         // Sukurkite programą, kuri atliks šias užduotis:

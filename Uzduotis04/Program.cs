@@ -1,6 +1,6 @@
 ﻿namespace Paskaita04
 {
-    public class Program
+    internal class Program
     {
         // 4. Užduotis: Studentų administravimas
         // Sukurti programą, kuri atliks šias užduotis:

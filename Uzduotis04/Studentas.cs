@@ -1,6 +1,6 @@
 ﻿namespace Paskaita04
 {
-    public class Studentas
+    internal class Studentas
     {
         public string Vardas { get; set; }
         public string Pavarde { get; set; }
