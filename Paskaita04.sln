@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis01", "Paskaita04\Uzduotis01.csproj", "{0EAFEED9-D366-47EA-AAA7-333D11344EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzduotis02", "Uzduotis02\Uzduotis02.csproj", "{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis02", "Uzduotis02\Uzduotis02.csproj", "{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzduotis03", "Uzduotis03\Uzduotis03.csproj", "{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis03", "Uzduotis03\Uzduotis03.csproj", "{82E9751C-EF0B-4E1C-8A4F-0DDD7B58F093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzduotis04", "Uzduotis04\Uzduotis04.csproj", "{F5D70B7F-49D4-4CB7-A158-755B43F50231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis04", "Uzduotis04\Uzduotis04.csproj", "{F5D70B7F-49D4-4CB7-A158-755B43F50231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzduotis05", "Uzduotis05\Uzduotis05.csproj", "{776DBAFD-1FA5-47AA-B4E6-F4584445972F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis05", "Uzduotis05\Uzduotis05.csproj", "{776DBAFD-1FA5-47AA-B4E6-F4584445972F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzduotis01", "Uzduotis01\Uzduotis01.csproj", "{0B9119BA-AC5A-43AC-BEC2-0D88CCDDA812}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0EAFEED9-D366-47EA-AAA7-333D11344EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EAFEED9-D366-47EA-AAA7-333D11344EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EAFEED9-D366-47EA-AAA7-333D11344EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EAFEED9-D366-47EA-AAA7-333D11344EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA6F4D6-2F65-4478-851A-BB5E2FFC30E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{776DBAFD-1FA5-47AA-B4E6-F4584445972F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{776DBAFD-1FA5-47AA-B4E6-F4584445972F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{776DBAFD-1FA5-47AA-B4E6-F4584445972F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9119BA-AC5A-43AC-BEC2-0D88CCDDA812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9119BA-AC5A-43AC-BEC2-0D88CCDDA812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9119BA-AC5A-43AC-BEC2-0D88CCDDA812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9119BA-AC5A-43AC-BEC2-0D88CCDDA812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
