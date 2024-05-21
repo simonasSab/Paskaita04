@@ -33,7 +33,6 @@
                 Knygos.RemoveAt(GetIndexByID(id));
                 Console.WriteLine($"Sekmingai panaikinta knyga (ID: {id:000})\n");
             }
-
         }
 
         public void PaskolintiKnyga(int id)
