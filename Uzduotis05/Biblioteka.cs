@@ -13,24 +13,24 @@
         //  * RodytiVisasKnygas():         Išspausdina visų knygų sąrašą.
         //  * RodytiPaskolintasKnygas():   Išspausdina tik paskolintų knygų sąrašą.
 
-        public List<Knyga> knygos { set; get; }
+        public List<Knyga> Knygos { set; get; }
 
         public Biblioteka()
         {
-            knygos = new();
+            Knygos = new();
         }
 
         public void PridetiKnyga(Knyga? knyga)
         {
             if (knyga != null)
-                knygos.Add(knyga);
+                Knygos.Add(knyga);
         }
 
         public void PasalintiKnyga(int id)
         {
             if (id != -1)
             {
-                knygos.RemoveAt(GetIndexByID(id));
+                Knygos.RemoveAt(GetIndexByID(id));
                 Console.WriteLine($"Sekmingai panaikinta knyga (ID: {id:000})\n");
             }
 
@@ -40,14 +40,14 @@
         {
             if (id != -1)
             {
-                if (knygos[GetIndexByID(id)].YraPaskolinta)
+                if (Knygos[GetIndexByID(id)].YraPaskolinta)
                 {
                     Console.WriteLine("Knygos paskolinti negalima - ji jau paskolinta!\n");
                 }
                 else
                 {
                     Console.WriteLine($"Sekmingai paskolinta knyga (ID: {id:000})\n");
-                    knygos[GetIndexByID(id)].YraPaskolinta = true;
+                    Knygos[GetIndexByID(id)].YraPaskolinta = true;
                 }
             }
         }
@@ -56,14 +56,14 @@
         {
             if (id != -1)
             {
-                if (!knygos[GetIndexByID(id)].YraPaskolinta)
+                if (!Knygos[GetIndexByID(id)].YraPaskolinta)
                 {
                     Console.WriteLine("Knygos grazinti negalima - ji jau grazinta!\n");
                 }
                 else
                 {
                     Console.WriteLine($"Sekmingai grazinta knyga (ID: {id:000})\n");
-                    knygos[GetIndexByID(id)].YraPaskolinta = false;
+                    Knygos[GetIndexByID(id)].YraPaskolinta = false;
                 }
             }
         }
@@ -71,7 +71,7 @@
         public void RodytiVisasKnygas()
         {
             Console.WriteLine("_____VISOS KNYGOS_____");
-            foreach (Knyga knyga in knygos)
+            foreach (Knyga knyga in Knygos)
             {
                 Console.WriteLine(knyga.ToString());
             }
@@ -82,7 +82,7 @@
         {
             bool exists = false;
             Console.WriteLine("_____PASKOLINTOS KNYGOS_____");
-            foreach (Knyga knyga in knygos)
+            foreach (Knyga knyga in Knygos)
             {
                 if (knyga.YraPaskolinta)
                 {
@@ -101,7 +101,7 @@
         {
             bool exists = false;
             Console.WriteLine("_____NEPASKOLINTOS KNYGOS_____");
-            foreach (Knyga knyga in knygos)
+            foreach (Knyga knyga in Knygos)
             {
                 if (!knyga.YraPaskolinta)
                 {
@@ -118,7 +118,7 @@
         // Papildoma funkcija - pasakyti, ar knygų sąraše yra knyga su konkrečiu ID
         public bool YraKnygosID(int id)
         {
-            foreach (Knyga knyga in knygos)
+            foreach (Knyga knyga in Knygos)
             {
                 if (knyga.Id == id)
                     return true;
@@ -129,9 +129,9 @@
         // Papildoma funkcija - gauti knygų sąrašo indeksą pagal ID
         public int GetIndexByID(int id)
         {
-            for (int i = 0; i < knygos.Count; i++)
+            for (int i = 0; i < Knygos.Count; i++)
             {
-                if (knygos[i].Id == id)
+                if (Knygos[i].Id == id)
                     return i;
             }
             Console.WriteLine("\nKlaida: nesutampa ID.\n");
@@ -141,9 +141,9 @@
         // Papildoma funkcija - atsako, ar yra paskolintų knygų
         public bool ArYraPaskolintuKnygu()
         {
-            for (int i = 0; i < knygos.Count; i++)
+            for (int i = 0; i < Knygos.Count; i++)
             {
-                if (knygos[i].YraPaskolinta)
+                if (Knygos[i].YraPaskolinta)
                     return true;
             }
             return false;
@@ -152,9 +152,9 @@
         // Papildoma funkcija - atsako, ar yra nepaskolintų knygų
         public bool ArYraNepaskolintuKnygu()
         {
-            for (int i = 0; i < knygos.Count; i++)
+            for (int i = 0; i < Knygos.Count; i++)
             {
-                if (!knygos[i].YraPaskolinta)
+                if (!Knygos[i].YraPaskolinta)
                     return true;
             }
             return false;

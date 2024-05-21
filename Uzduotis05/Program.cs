@@ -39,7 +39,7 @@
                     PirminisMeniu();
                     break;
                 case 2: // Pasalinti knyga
-                    if (biblioteka.knygos.Count > 0)
+                    if (biblioteka.Knygos.Count > 0)
                     {
                         biblioteka.RodytiVisasKnygas();
                         biblioteka.PasalintiKnyga(PasirinktiKnygosID());
@@ -51,7 +51,7 @@
                     PirminisMeniu();
                     break;
                 case 3: // Paskolinti knyga
-                    if (biblioteka.knygos.Count > 0 && biblioteka.ArYraNepaskolintuKnygu())
+                    if (biblioteka.Knygos.Count > 0 && biblioteka.ArYraNepaskolintuKnygu())
                     {
                         biblioteka.RodytiNepaskolintasKnygas();
                         biblioteka.PaskolintiKnyga(PasirinktiKnygosID());
@@ -63,7 +63,7 @@
                     PirminisMeniu();
                     break;
                 case 4: // Grazinti knyga
-                    if (biblioteka.knygos.Count > 0 && biblioteka.ArYraPaskolintuKnygu())
+                    if (biblioteka.Knygos.Count > 0 && biblioteka.ArYraPaskolintuKnygu())
                     {
                         biblioteka.RodytiPaskolintasKnygas();
                         biblioteka.GrazintiKnyga(PasirinktiKnygosID());
@@ -75,7 +75,7 @@
                     PirminisMeniu();
                     break;
                 case 5: // Rodyti visas knygas
-                    if (biblioteka.knygos.Count > 0)
+                    if (biblioteka.Knygos.Count > 0)
                     {
                         biblioteka.RodytiVisasKnygas();
                     }
@@ -86,7 +86,7 @@
                     PirminisMeniu();
                     break;
                 case 6: // Rodyti paskolintas knygas
-                    if (biblioteka.knygos.Count > 0)
+                    if (biblioteka.Knygos.Count > 0)
                     {
                         biblioteka.RodytiPaskolintasKnygas();
                     }
