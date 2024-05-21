@@ -1,4 +1,4 @@
-﻿namespace Paskaita04
+﻿namespace Uzduotis02
 {
     internal class Studentas
     {

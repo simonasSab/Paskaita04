@@ -1,4 +1,4 @@
-﻿namespace Paskaita04
+﻿namespace Uzduotis01
 {
     public class Uzduotis01
     {

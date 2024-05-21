@@ -1,4 +1,4 @@
-﻿namespace Paskaita04
+﻿namespace Uzduotis04
 {
     internal class Program
     {

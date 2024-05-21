@@ -1,4 +1,4 @@
-﻿namespace Paskaita04
+﻿namespace Uzduotis05
 {
     internal class Knyga
     {

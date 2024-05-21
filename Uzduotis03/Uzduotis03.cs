@@ -1,4 +1,4 @@
-﻿namespace Paskaita04
+﻿namespace Uzduotis03
 {
     internal class Uzduotis03
     {
