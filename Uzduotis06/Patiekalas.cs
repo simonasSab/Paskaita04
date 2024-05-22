@@ -17,7 +17,15 @@
             Id = id;
             Pavadinimas = pavadinimas;
             Kaina = kaina;
-            Busena = "";
+            Busena = "Meniu";
+        }
+
+        public Patiekalas(int id, string pavadinimas, double kaina, string busena)
+        {
+            Id = id;
+            Pavadinimas = pavadinimas;
+            Kaina = kaina;
+            Busena = busena;
         }
 
         public override string ToString()

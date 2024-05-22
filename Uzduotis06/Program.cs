@@ -215,6 +215,7 @@
                     Console.WriteLine("\nAtsaukta\n");
                     return null;
                 }
+                Console.WriteLine();
             }
             while (klientas == null);
 
@@ -246,7 +247,7 @@
                     if (confirmation != "ne")
                     {
                         Patiekalas patiekalas = new(patiekaloIdUzsakyme, restoranas.Meniu[restoranas.GautiPatiekaloIndexIsID(patiekaloIdMeniu)].Pavadinimas,
-                                                                    restoranas.Meniu[restoranas.GautiPatiekaloIndexIsID(patiekaloIdMeniu)].Kaina);
+                                                                    restoranas.Meniu[restoranas.GautiPatiekaloIndexIsID(patiekaloIdMeniu)].Kaina, "laukiama");
                         patiekalai.Add(patiekalas);
                         patiekaloIdUzsakyme++;
                     }

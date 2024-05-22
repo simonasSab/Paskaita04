@@ -19,7 +19,7 @@
 
         public override string ToString()
         {
-            return $"Uzsakymas - ID: {Id:000}, klientas: {Klientas})";
+            return $"Uzsakymas - ID: {Id:000}, klientas: {Klientas}";
         }
 
         public int GautiPatiekaloIndexIsID(int id)

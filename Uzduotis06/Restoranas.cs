@@ -64,7 +64,7 @@
         public void RodytiUzsakyma(int uzsakymoId)
         {
             int index = GautiPatiekaloIndexIsID(uzsakymoId);
-            Console.WriteLine($"{Uzsakymai[index].ToString()}");
+            Console.WriteLine($"{Uzsakymai[index].ToString()}\nPatiekalai:\n");
             foreach (Patiekalas patiekalas in Uzsakymai[index].Patiekalai)
             {
                 Console.WriteLine(patiekalas.ToString());
@@ -106,9 +106,12 @@
         // Papildoma funkcija - naikinti patiekalą iš užsakymo
         public void NaikintiPatiekalaIsUzsakymo(int uzsakymoId, int patiekaloId)
         {
+            int uzsakymoIndex = GautiUzsakymoIndexIsID(uzsakymoId);
+            int patiekaloIndex = Uzsakymai[uzsakymoIndex].GautiPatiekaloIndexIsID(patiekaloId);
+
             if (patiekaloId != -1)
             {
-                Uzsakymai[GautiUzsakymoIndexIsID(uzsakymoId)].Patiekalai.RemoveAt(GautiPatiekaloIndexIsID(patiekaloId));
+                Uzsakymai[uzsakymoIndex].Patiekalai.RemoveAt(patiekaloIndex);
                 Console.WriteLine($"Sekmingai panaikintas uzsakymo (ID: {uzsakymoId:000}) patiekalas (ID: {patiekaloId:000})\n");
             }
         }
